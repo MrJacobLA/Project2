@@ -4,6 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- <section
+      class="header flex w-full grid-cols-2 m-[50px] place-content-around gap-4"> -->
+    <section
+      class="bg-[#FFF6F1] relative flex items-center justify-between px-16 py-20"
+    >
+      <div>
+        <h1 class="text-[74px]/[1] font-extrabold pb-20px text-[#1D120E]">
+          Find Your <br />
+          Dream Home
+        </h1>
+        <p class="font-bold text-lg mt-6 mb-8 text-[#1D120E]">
+          Explore our curated selection of exquisite <br />
+          properties meticulously tailored to your <br />
+          unique dream home vision
+        </p>
+        <button
+          class="bg-[#2B1B12] text-[#FFFFFF] text-[18px] rounded-lg w-[176px] px-8 py-3"
+        >
+          Sign up
+        </button>
+      </div>
+
+      <img
+        class="w-[50%] rounded-xl"
+        src="img/hero image 1 (1).png"
+        alt="Haus"
+      />
+
+      <!-- <div
+      class="location bg-[#DDC7BB] w-[1070px] h-[160px] m-auto flex items-center justify-center gap-[2px]"
+    > -->
+      <div
+        class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 w-[1070px] h-[100px] bg-[#DDC7BB] rounded-xl flex items-center justify-between px-6 gap-4 shadow-lg"
+      >
+        <!-- <div
+      class="input1 w-[25%] bg-[#FBF5F1] flex items-center justify-center place-content-between"
+    >
+      Location <img src="img/location.png" class="w-6 h-6" alt="Standort" />
+    </div>
+    <div class="input2 w-[25%] bg-[#FBF5F1]">Type</div>
+    <div class="input3 w-[25%] bg-[#FBF5F1]">Price Range</div> -->
+        <img src="img/location.png" class="w-6 h-6" alt="Standort" />
+        <input
+          type="text"
+          placeholder="Location"
+          class="w-1/4 h-12 px-4 rounded-md border border-yellow-400 focus:outline-none"
+        />
+        <img src="img/home.png" class="w-6 h-6" alt="Standort" />
+        <input
+          type="text"
+          placeholder="Type"
+          class="w-1/4 h-12 px-4 rounded-md bg-white"
+        />
+        <img src="img/price.png" class="w-6 h-6" alt="Standort" />
+        <input
+          type="text"
+          placeholder="Price Range"
+          class="w-1/4 h-12 px-4 rounded-md bg-white"
+        />
+        <!-- <button
+      class="bg-[#2B1B12] text-[#FFFFFF] text-[18px] rounded-[8px] w-[20%] mt-20px pt-20px"
+    >
+      Sign up
+    </button> -->
+
+        <button class="bg-[#2B1B12] text-white px-6 py-3 rounded-md">
+          Sign up
+        </button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
